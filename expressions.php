@@ -2,6 +2,8 @@
 
 echo "Welcome to PHP\n";
 
+echo "Hello world\n";
+
 
 $name = "Alice.";
 echo "Hello " . $name . "\n";
