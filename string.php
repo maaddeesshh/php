@@ -13,7 +13,7 @@ echo ucfirst($str);
 
 
 $greetings = "Hello" . "Sasa";
-$greetings  .= "Holla";  // APPENDING 
+$greetings  .= "Holla";  // APPENDING ....they must share the same variable name 
 echo $greetings;
 
 
@@ -27,3 +27,32 @@ echo $GREET;
 
 echo strpos($str, "hello");
 echo str_replace("hello","Holla", $str);
+
+
+$Name = " Alice";
+$age = 99;
+printf("%s is %d years old." , $Name , $age);
+
+
+
+
+$csv = "Apple,Mango, Banana, Orange";
+print_r(explode(",", $csv)) ;
+
+
+echo trim("     Hello      ");
+$medono = "سبحان الله";
+echo mb_strlen($medono) ;
+
+
+
+
+$url = "https://aimsoft.udemy.com/course/laravel-beginner-fundamentals/learn/lecture/46135881#questions";
+ echo $url;
+ echo urlencode($url). "\n";
+
+ echo urldecode(urlencode($url));
+
+
+ $number=123.584893;
+ echo number_format($number, 4, ".",",");

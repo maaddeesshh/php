@@ -27,7 +27,7 @@ function team(string $coach, string ...$members):void {
 }
 
 $Team = ["Pep","Cherki","Reijders", "Nouri"];
-echo team("Madesh", "Harvey", ...$Team); //after unpacking you cant add another argument after that
+team("Madesh", "Harvey", ...$Team); //after unpacking you cant add another argument after that
 team("Madesh", "Harvey", "Hufty", "Jere", "Tony", "Abdi", "Kako");
 
 
